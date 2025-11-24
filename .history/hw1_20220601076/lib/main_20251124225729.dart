@@ -48,11 +48,9 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(
-
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            for(int num in numbers)
-              Text(num.toString())
+            Text(numbers.toString())
           ],
         ),
       ),
