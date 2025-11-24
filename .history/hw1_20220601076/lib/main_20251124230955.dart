@@ -47,8 +47,9 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Align(
-        alignment: AlignmentGeometry.topRight,
+        alignment: ,
         child: Column(
+
           // mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             for(int num in numbers)
