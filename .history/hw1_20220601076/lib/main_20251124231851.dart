@@ -46,17 +46,14 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Align(
+      body: Container(
         alignment: AlignmentGeometry.topRight,
+        
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.end,
+          // mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             for(int num in numbers)
-              Text(
-                num.toString(),
-                textAlign: TextAlign.end,
-              )
+              Text(num.toString())
           ],
         ),
       ),

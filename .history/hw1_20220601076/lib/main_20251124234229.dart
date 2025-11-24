@@ -50,12 +50,12 @@ class _MyHomePageState extends State<MyHomePage> {
         alignment: AlignmentGeometry.topRight,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.end,
+          crossAxisAlignment: en,
           children: <Widget>[
             for(int num in numbers)
               Text(
                 num.toString(),
-                textAlign: TextAlign.end,
+                textAlign: TextAlign.justify
               )
           ],
         ),

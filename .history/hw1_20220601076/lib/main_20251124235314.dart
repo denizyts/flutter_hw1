@@ -46,11 +46,9 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Align(
-        alignment: AlignmentGeometry.topRight,
-        child: Column(
+      body: Column(
           mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.end,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             for(int num in numbers)
               Text(
@@ -59,7 +57,6 @@ class _MyHomePageState extends State<MyHomePage> {
               )
           ],
         ),
-      ),
       floatingActionButton: FloatingActionButton(
         onPressed: _insertNewNumber,
         tooltip: 'Increment',

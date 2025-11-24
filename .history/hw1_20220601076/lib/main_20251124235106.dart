@@ -46,8 +46,8 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Align(
-        alignment: AlignmentGeometry.topRight,
+      body: e(
+        // alignment: AlignmentGeometry.topRight,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.end,

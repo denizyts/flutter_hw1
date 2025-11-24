@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Align(
+      body: Column(
         alignment: AlignmentGeometry.topRight,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,

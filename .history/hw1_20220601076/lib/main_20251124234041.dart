@@ -48,14 +48,14 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Align(
         alignment: AlignmentGeometry.topRight,
+        widthFactor: 1.0,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.end,
+          // mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             for(int num in numbers)
               Text(
                 num.toString(),
-                textAlign: TextAlign.end,
+                textAlign: TextAlign.e
               )
           ],
         ),

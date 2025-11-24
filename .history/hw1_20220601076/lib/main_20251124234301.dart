@@ -47,15 +47,17 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Align(
-        alignment: AlignmentGeometry.topRight,
+        // alignment: AlignmentGeometry.topRight,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.end,
+          mainAxisSize: MainAxisSize.max,
+          cross
           children: <Widget>[
             for(int num in numbers)
               Text(
                 num.toString(),
-                textAlign: TextAlign.end,
+                textAlign: TextAlign.justify
               )
           ],
         ),
