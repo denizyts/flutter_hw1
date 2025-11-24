@@ -51,12 +51,12 @@ class _MyHomePageState extends State<MyHomePage> {
 
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(numbers.toString())
+            numbers.map((e) => ,)
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _insertNewNumber,
+        onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.

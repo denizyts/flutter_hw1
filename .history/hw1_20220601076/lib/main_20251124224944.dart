@@ -50,8 +50,10 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
 
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(numbers.toString())
+          children: [
+            for(int num in numbers){
+              Text(num String)
+            }
           ],
         ),
       ),
