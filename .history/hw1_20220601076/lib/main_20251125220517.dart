@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
             for(int num in numbers)
               Text(
                 num.toString(),
-                textAlign: TextAlign.end,
+                // textAlign: TextAlign.end,
               )
           ],
         ),
